@@ -24,8 +24,8 @@ export function orderByProps(obj, order) {
 }
 
 export function getSpecialAttack(obj) {
-  const { special } = obj;
-  const tmp = JSON.parse(JSON.stringify(special));
+  const { _special } = obj;
+  const tmp = JSON.parse(JSON.stringify(_special));
   tmp.forEach((element) => {
     if (!('description' in element)) {
       const el = element;

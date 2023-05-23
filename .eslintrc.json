@@ -12,6 +12,7 @@
       "LabeledStatement",
       "WithStatement"
     ],
+    "no-underscore-dangle": "off",
     "no-new": "off",
     "no-console": "off",
     "import/extensions": ["off"]
