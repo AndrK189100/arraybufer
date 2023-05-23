@@ -19,5 +19,3 @@ export default class ArrayBufferConverter {
     return String.fromCharCode(...this.bufferView);
   }
 }
-
-const a = getBuffer();
